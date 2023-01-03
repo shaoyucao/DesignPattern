@@ -4,14 +4,44 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="" />
+    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/StudyGoCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/StudyJavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/StudyPHPCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/StudyPythonCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/dependenceinversion/Tom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/DiscountCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/Icourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2JnLONgBMxcpyfPPgyw7QiilMqO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,6 +53,40 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.com.syc.study.principle.dependenceinversion.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.openclose.Test" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syc.study.principle.openclose.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.syc.study.principle.dependenceinversion.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.dependenceinversion.Test" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syc.study.principle.dependenceinversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.syc.study.principle.dependenceinversion.Test" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,9 +95,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672708868854</updated>
-      <workItem from="1672708871252" duration="2000" />
+      <workItem from="1672708871252" duration="16314000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1672709162912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672709162912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -45,5 +120,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
