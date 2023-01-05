@@ -9,6 +9,6 @@ public class Test {
         Icourse icourse = new DiscountCourse(1, "《Java从0到精通》", 366d);
         DiscountCourse discountCourse = (DiscountCourse) icourse;
         System.out.println("课程id: " + javaCourse.getId() + ", 课程名称: "
-                + discountCourse.getName() + ", 课程原价: " + discountCourse.getOriginalPrice() + ", 课程折后价格: " + discountCourse.getPrice());
+                + discountCourse.getName() + ", 课程原价: " + discountCourse.getPrice() + ", 课程折后价格: " + discountCourse.getDiscountPrice());
     }
 }
