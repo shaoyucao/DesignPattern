@@ -4,30 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="first 2 principles: openclose and dependence inversion">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/demeter/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/demeter/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/demeter/Leader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/demeter/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/IAnimalAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/IEatAnimalAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/IFlyAnimalAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/interfacesegregation/ISwimAnimalAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/ChinesePerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/EnglishPerson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/ICourseContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/ICourseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/ICourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/singleresponsibility/Test.java" afterDir="false" />
+    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="add other 3 principles">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/FatherDBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/MysqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/PgsqlConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/ProductDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/ProductDaoUseExtends.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/compositionaggregation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/Quadrangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodinput/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodinput/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodinput/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodoutput/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodoutput/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/liskovsubstitution/methodoutput/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/DiscountCourse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/DiscountCourse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/principle/openclose/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -64,7 +60,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.com.syc.study.principle.compositionaggregation.Test">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.openclose.Test" />
       <module name="design-pattern" />
@@ -78,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.principle.demeter.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.demeter.Test" />
+    <configuration name="com.syc.study.principle.compositionaggregation.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.compositionaggregation.Test" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.principle.demeter.*" />
+          <option name="PATTERN" value="com.syc.study.principle.compositionaggregation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.principle.dependenceinversion.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.dependenceinversion.Test" />
+    <configuration name="com.syc.study.principle.liskovsubstitution.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.liskovsubstitution.Test" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.principle.dependenceinversion.*" />
+          <option name="PATTERN" value="com.syc.study.principle.liskovsubstitution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.principle.singleresponsibility.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.singleresponsibility.Test" />
+    <configuration name="com.syc.study.principle.liskovsubstitution.methodinput.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.liskovsubstitution.methodinput.Test" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.principle.singleresponsibility.*" />
+          <option name="PATTERN" value="com.syc.study.principle.liskovsubstitution.methodinput.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.syc.study.principle.liskovsubstitution.methodoutput.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.syc.study.principle.liskovsubstitution.methodoutput.Test" />
+      <module name="design-pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.syc.study.principle.liskovsubstitution.methodoutput.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,10 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.syc.study.principle.compositionaggregation.Test" />
+        <item itemvalue="Application.com.syc.study.principle.liskovsubstitution.methodoutput.Test" />
+        <item itemvalue="Application.com.syc.study.principle.liskovsubstitution.methodinput.Test" />
+        <item itemvalue="Application.com.syc.study.principle.liskovsubstitution.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.com.syc.study.principle.demeter.Test" />
-        <item itemvalue="Application.com.syc.study.principle.singleresponsibility.Test" />
-        <item itemvalue="Application.com.syc.study.principle.dependenceinversion.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672708868854</updated>
-      <workItem from="1672708871252" duration="29513000" />
+      <workItem from="1672708871252" duration="37898000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672709162912</created>
@@ -150,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672753611850</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add other 3 principles">
+      <created>1672929298351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672929298351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +187,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="first 2 principles: openclose and dependence inversion" />
-    <option name="LAST_COMMIT_MESSAGE" value="first 2 principles: openclose and dependence inversion" />
+    <MESSAGE value="add other 3 principles" />
+    <option name="LAST_COMMIT_MESSAGE" value="add other 3 principles" />
   </component>
 </project>
