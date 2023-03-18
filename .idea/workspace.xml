@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="添加两种工厂模式：一个简单工厂方法，工厂方法模式和抽象工厂模式。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/CourseActualBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/CourseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/v2/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/builder/v2/Test.java" afterDir="false" />
+    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="建造者模式">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/singleton/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/singleton/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-method-pattern/AbstractCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-method-pattern/GoCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-method-pattern/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template-method-pattern/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +59,14 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.syc.study.pattern.creational.builder.v2.Test">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="design-pattern" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.factorymethod.Test" />
       <module name="design-pattern" />
@@ -113,26 +119,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.pattern.creational.simplefactory.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.simplefactory.Test" />
-      <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syc.study.pattern.creational.simplefactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.com.syc.study.pattern.creational.builder.v2.Test" />
         <item itemvalue="Application.com.syc.study.pattern.creational.builder.Test" />
         <item itemvalue="Application.com.syc.study.pattern.creational.abstractfactory.Test" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.com.syc.study.pattern.creational.simplefactory.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +140,9 @@
       <workItem from="1672708871252" duration="43800000" />
       <workItem from="1673135955993" duration="2312000" />
       <workItem from="1673506800817" duration="7621000" />
-      <workItem from="1675145747527" duration="9148000" />
+      <workItem from="1675145747527" duration="10562000" />
+      <workItem from="1679137087590" duration="2629000" />
+      <workItem from="1679153621943" duration="401000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672709162912</created>
@@ -184,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673515795428</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="建造者模式">
+      <created>1675241575024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675241575024</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +209,7 @@
     <MESSAGE value="add other 3 principles" />
     <MESSAGE value="last two principles: liskov substitution principle and  composition aggregation principle" />
     <MESSAGE value="添加两种工厂模式：一个简单工厂方法，工厂方法模式和抽象工厂模式。" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加两种工厂模式：一个简单工厂方法，工厂方法模式和抽象工厂模式。" />
+    <MESSAGE value="建造者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
   </component>
 </project>
