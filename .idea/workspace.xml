@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="建造者模式">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/singleton/LazySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/singleton/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-method-pattern/AbstractCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-method-pattern/GoCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-method-pattern/JavaCourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-method-pattern/Test.java" afterDir="false" />
+    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="add template-method-pattern">
+      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Approver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/ArticleApprover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Test_Responsibility_Chain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/VideoApprover.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/syc/study/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/syc/study/AppTestResponsibilityChain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/factorymethod" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test_Responsibility_Chain">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="design-pattern" />
@@ -67,15 +68,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.factorymethod.Test" />
+    <configuration name="Test_Responsibility_Chain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test_Responsibility_Chain" />
       <module name="design-pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.syc.study.pattern.creational.factorymethod.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test_Responsibility_Chain" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.com.syc.study.pattern.creational.builder.v2.Test" />
         <item itemvalue="Application.com.syc.study.pattern.creational.builder.Test" />
         <item itemvalue="Application.com.syc.study.pattern.creational.abstractfactory.Test" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +137,7 @@
       <workItem from="1673506800817" duration="7621000" />
       <workItem from="1675145747527" duration="10562000" />
       <workItem from="1679137087590" duration="2629000" />
-      <workItem from="1679153621943" duration="401000" />
+      <workItem from="1679153621943" duration="6421000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672709162912</created>
@@ -186,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675241575024</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add template-method-pattern">
+      <created>1679155003847</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679155003847</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +212,7 @@
     <MESSAGE value="last two principles: liskov substitution principle and  composition aggregation principle" />
     <MESSAGE value="添加两种工厂模式：一个简单工厂方法，工厂方法模式和抽象工厂模式。" />
     <MESSAGE value="建造者模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="建造者模式" />
+    <MESSAGE value="add template-method-pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add template-method-pattern" />
   </component>
 </project>
