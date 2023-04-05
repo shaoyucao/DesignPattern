@@ -4,15 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="add template-method-pattern">
-      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Approver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/ArticleApprover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/Test_Responsibility_Chain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/responsibility-chain-pattern/VideoApprover.java" afterDir="false" />
+    <list default="true" id="72142b6d-9913-4e9c-93b2-ff843ae6d9f5" name="Changes" comment="add responsibility chain pattern">
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/classadapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/classadapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/classadapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/classadapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/classadapter/Test_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/objectAdapter/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/objectAdapter/Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/objectAdapter/ConcreteTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/objectAdapter/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/objectAdapter/Test_Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/power/HousePower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/power/PowerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/power/TargetPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adapter-pattern/power/Test_Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/CourseVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/CourseVideoCloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/CourseVideoOpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/Design_Pattern_Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/command-pattern/Staff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/MyTest_Mediator_Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/StudyGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mediator-pattern/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/syc/study/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/syc/study/AppTestResponsibilityChain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,28 +75,31 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/syc/study/pattern/creational/factorymethod" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="objectAdapter" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Test_Responsibility_Chain">
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="Application.Test_Power">
+    <configuration name="Design_Pattern_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Pattern_Test" />
       <module name="design-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test_Responsibility_Chain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test_Responsibility_Chain" />
+    <configuration name="MyTest_Mediator_Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyTest_Mediator_Pattern" />
       <module name="design-pattern" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.pattern.creational.abstractfactory.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.abstractfactory.Test" />
+    <configuration name="Test_Adapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classadapter.Test_Adapter" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.pattern.creational.abstractfactory.*" />
+          <option name="PATTERN" value="classadapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.pattern.creational.builder.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.builder.Test" />
+    <configuration name="Test_Power" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="power.Test_Power" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.pattern.creational.builder.*" />
+          <option name="PATTERN" value="power.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.syc.study.pattern.creational.builder.v2.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.syc.study.pattern.creational.builder.v2.Test" />
+    <configuration name="objectAdapter.Test_Adapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectAdapter.Test_Adapter" />
       <module name="design-pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.syc.study.pattern.creational.builder.v2.*" />
+          <option name="PATTERN" value="objectAdapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test_Responsibility_Chain" />
-        <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.com.syc.study.pattern.creational.builder.v2.Test" />
-        <item itemvalue="Application.com.syc.study.pattern.creational.builder.Test" />
-        <item itemvalue="Application.com.syc.study.pattern.creational.abstractfactory.Test" />
+        <item itemvalue="Application.Test_Power" />
+        <item itemvalue="Application.objectAdapter.Test_Adapter" />
+        <item itemvalue="Application.Test_Adapter" />
+        <item itemvalue="Application.MyTest_Mediator_Pattern" />
+        <item itemvalue="Application.Design_Pattern_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +156,9 @@
       <workItem from="1673506800817" duration="7621000" />
       <workItem from="1675145747527" duration="10562000" />
       <workItem from="1679137087590" duration="2629000" />
-      <workItem from="1679153621943" duration="6421000" />
+      <workItem from="1679153621943" duration="8345000" />
+      <workItem from="1679749628806" duration="2359000" />
+      <workItem from="1679752135383" duration="6485000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1672709162912</created>
@@ -188,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679155003847</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add responsibility chain pattern">
+      <created>1679216240987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1679216240987</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +241,7 @@
     <MESSAGE value="添加两种工厂模式：一个简单工厂方法，工厂方法模式和抽象工厂模式。" />
     <MESSAGE value="建造者模式" />
     <MESSAGE value="add template-method-pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add template-method-pattern" />
+    <MESSAGE value="add responsibility chain pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="add responsibility chain pattern" />
   </component>
 </project>
